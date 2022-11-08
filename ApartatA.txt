@@ -1,0 +1,5 @@
+8- mkdir -p alvich/{un,dos,tres}
+
+9- echo "Alberto Villegas Chaparro" > un.txt
+
+10- ps aux > /home/alumno/alvich/processos.txt
