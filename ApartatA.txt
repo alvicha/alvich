@@ -3,3 +3,11 @@
 9- echo "Alberto Villegas Chaparro" > un.txt
 
 10- ps aux > /home/alumno/alvich/processos.txt
+
+16- cat processos.txt | grep ^root
+
+17- cat processos.txt | awk '{print $2,$9}'
+
+18- cat processos.txt | grep ^alumno -n
+
+19- cat processos.txt | awk '{print $1,":",$2,$11}' 
